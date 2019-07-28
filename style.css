@@ -1,0 +1,74 @@
+body{
+	background-color: #FFDAB9;
+
+
+}
+header{
+	background-color: #752f26;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	font-family: cursive, Helvetica, Arial;
+	width: 100%;
+}
+
+footer{
+	background-color: #752f26;
+	color: white;
+	text-align: center;
+	padding:10px;
+	font-family: cursive, Times, Helvetica;
+	left: 0;
+	bottom:0;
+	width: 100%;
+	
+
+}
+
+p{
+	text-align: center;
+	font-family: cursive, Helvetica, Times;
+	background-color: #FFDAB9;
+	padding:10px;
+}
+legend{
+	font-family: cursive;
+}
+fieldset{
+	border: .3em
+}
+
+.mbutton{
+	font-family:cursive;
+	padding: 10px;
+	background-color: #8c382d;
+	border-radius: .9em;
+	border-color: #000000;
+}
+
+.mbutton:hover{
+	padding: 12px;
+
+}
+.log{
+	text-align: center;
+	width: 100%;
+}
+#labels{
+	font-size: 18px;
+	font-style: italic;
+}
+#info{
+	height: 20px;
+	width: 300px;
+	background-color: #CEEEFA;
+	font-size:15px;
+}
+
+#info: focus{
+	border: 2px solid green;
+}
+
+#info: invalid{
+	border: 2px solid red;
+}
